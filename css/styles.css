@@ -539,6 +539,7 @@ body.menu-open { overflow: hidden; }
 }
 .about__image {
   aspect-ratio: 4 / 5;
+  width: 100%;
   position: relative;
   overflow: hidden;
   border-radius: 4px;
