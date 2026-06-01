@@ -1269,14 +1269,22 @@ body.menu-open { overflow: hidden; }
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  background: rgba(255,255,255,0.06);
-  color: rgba(245, 239, 226, 0.7);
-  transition: background 280ms var(--ease), color 280ms var(--ease), transform 280ms var(--ease);
-}
-.site-footer__social a:hover {
-  background: var(--gold);
   color: #fff;
+  background: rgba(255,255,255,0.08);
+  transition: transform 280ms var(--ease), box-shadow 280ms var(--ease), filter 280ms var(--ease);
+}
+/* Brand colors */
+.site-footer__social a[aria-label="Facebook"]  { background: #1877F2; }
+.site-footer__social a[aria-label="Instagram"] {
+  background: radial-gradient(circle at 30% 107%,
+    #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+.site-footer__social a[aria-label="YouTube"]   { background: #FF0000; }
+.site-footer__social a[aria-label="TikTok"]    { background: #010101; }
+.site-footer__social a:hover {
   transform: translateY(-2px);
+  filter: brightness(1.1) saturate(1.1);
+  box-shadow: 0 10px 20px -10px rgba(0,0,0,0.55);
 }
 
 .site-footer__col-title {
