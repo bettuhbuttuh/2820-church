@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+
+# Logs / temp
+*.log
+*.tmp
+Thumbs.db
+
+# Tooling
+.claude/
