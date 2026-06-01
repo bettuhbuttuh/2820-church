@@ -1281,6 +1281,10 @@ body.menu-open { overflow: hidden; }
 }
 .site-footer__social a[aria-label="YouTube"]   { background: #FF0000; }
 .site-footer__social a[aria-label="TikTok"]    { background: #010101; }
+.site-footer__social a svg {
+  width: 20px;
+  height: 20px;
+}
 .site-footer__social a:hover {
   transform: translateY(-2px);
   filter: brightness(1.1) saturate(1.1);
