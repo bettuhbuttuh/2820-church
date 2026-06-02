@@ -3459,9 +3459,9 @@ body.cart-open { overflow: hidden; }
 ============================================================ */
 .store-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
-  max-width: 860px;
+  max-width: 1180px;
   margin: 0 auto;
 }
 .store-card {
@@ -3790,6 +3790,9 @@ body.cart-open { overflow: hidden; }
   .product-gallery__main { max-width: 440px; margin-inline: auto; width: 100%; }
   .product-info { max-width: 540px; margin: 0 auto; }
   .product-actions__btn { max-width: none; }
+}
+@media (max-width: 900px) {
+  .store-grid { grid-template-columns: repeat(2, 1fr); max-width: 860px; }
 }
 @media (max-width: 560px) {
   .store-grid { grid-template-columns: 1fr; gap: 1.5rem; max-width: 420px; }

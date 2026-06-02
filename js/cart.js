@@ -23,6 +23,7 @@
   var SIZES = ['S', 'M', 'L', 'XL', '2XL', '3XL', '4XL'];
 
   var HOODIE_DESC = 'Heavyweight fleece hoodie carrying the 2820 flag mark. Built for cold mornings, long altar calls, and everywhere the mission takes you.';
+  var CLASSIC_HOODIE_DESC = 'Heavyweight fleece hoodie carrying the 28:20 wordmark — a daily reminder that He is with us always, to the very end of the age.';
   var TEE_DESC = 'Soft, premium cotton tee inspired by Matthew 28:20 — a daily reminder that He is with us always, to the very end of the age.';
 
   var PRODUCTS = {
@@ -35,6 +36,16 @@
       id: 'hoodie-white', name: '2820 Flag Hoodie', category: 'Hoodie', group: 'hoodie',
       color: 'White', swatch: '#E7E1D6', price: 65, badge: 'New',
       image: 'assets/merch-2820-hoodie-white.jpg', description: HOODIE_DESC
+    },
+    'classic-hoodie-black': {
+      id: 'classic-hoodie-black', name: '28:20 Hoodie', category: 'Hoodie', group: 'classic-hoodie',
+      color: 'Black', swatch: '#14181F', price: 65, badge: 'New',
+      image: 'assets/merch-2820-classic-hoodie-black.jpg', description: CLASSIC_HOODIE_DESC
+    },
+    'classic-hoodie-white': {
+      id: 'classic-hoodie-white', name: '28:20 Hoodie', category: 'Hoodie', group: 'classic-hoodie',
+      color: 'White', swatch: '#EEE5D2', price: 65, badge: 'New',
+      image: 'assets/merch-2820-classic-hoodie-white.jpg', description: CLASSIC_HOODIE_DESC
     },
     'tee-black': {
       id: 'tee-black', name: '28:20 Tee', category: 'Tee', group: 'tee',
