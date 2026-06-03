@@ -1661,6 +1661,73 @@ body.menu-open { overflow: hidden; }
 }
 .story-row__body p:last-child { margin-bottom: 0; }
 
+/* ── Pastor feature (Leadership) ── */
+.pastor-feature {
+  display: grid;
+  grid-template-columns: 0.82fr 1.18fr;
+  gap: 3.5rem;
+  align-items: start;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+.pastor-feature__media {
+  position: relative;
+  border-radius: 3px;
+  overflow: hidden;
+  background: var(--navy-deep);
+  box-shadow: 0 34px 64px -34px rgba(3, 18, 38, 0.55);
+  position: sticky;
+  top: 110px;
+}
+.pastor-feature__img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.pastor-feature__plate {
+  position: absolute;
+  left: 0; right: 0; bottom: 0;
+  padding: 3rem 1.85rem 1.5rem;
+  background: linear-gradient(180deg, rgba(3, 18, 38, 0) 0%, rgba(3, 18, 38, 0.88) 100%);
+}
+.pastor-feature__name {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.01em;
+  font-size: clamp(1.25rem, 2vw, 1.55rem);
+  color: #fff;
+  line-height: 1.1;
+  margin: 0 0 0.35rem;
+}
+.pastor-feature__role {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 0.74rem;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin: 0;
+}
+.pastor-feature__bio p {
+  font-size: 1rem;
+  line-height: 1.85;
+  color: var(--ink-soft);
+  margin-bottom: 1.15rem;
+}
+.pastor-feature__bio p:last-child { margin-bottom: 0; }
+@media (max-width: 860px) {
+  .pastor-feature {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .pastor-feature__media {
+    position: static;
+    max-width: 380px;
+    margin: 0 auto;
+  }
+}
+
 /* ============================================================
    MESSAGES (sermons archive)
 ============================================================ */
