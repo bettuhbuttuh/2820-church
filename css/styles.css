@@ -1259,6 +1259,9 @@ body.menu-open { overflow: hidden; }
   text-transform: uppercase;
   margin-bottom: 1.5rem;
 }
+.site-footer__tagline-accent {
+  color: var(--gold-bright);
+}
 .site-footer__social {
   display: flex;
   gap: 0.6rem;
